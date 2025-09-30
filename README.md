@@ -4,7 +4,7 @@
 * runYolo.py: 用于模型识别
 * generateCapter: 用于生成训练用的训练集
 
-训练好的pt文件在`runs/detect/train2/best.pt`，正确率高达90%
+训练好的pt文件在`runs/detect/train2/best.pt`，正确率高达90%（训练20次的时候其实mAP50已经99.5%了）
 
 ## 训练思路：
 其实针对腾讯的验证码识别分类是比较简单的，其实我个人有两种方案：
