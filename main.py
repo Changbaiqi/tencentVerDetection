@@ -9,6 +9,7 @@ model = YOLO("yolo12n.pt")  # 也可以换成 yolo12s.pt/yolo12m.pt 等
 data_yaml = "datasets/yolo_dataset/data.yaml"
 
 # ---- 3. 训练模型 ----
+# 这里验证码识别使用了generateCapter生成的3500张图片进行，其实训练50轮就已经效果非常好了
 results = model.train(
     data=data_yaml,   # 数据集配置文件
     epochs=100,       # 训练轮数
