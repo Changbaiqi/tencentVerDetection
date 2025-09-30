@@ -4,4 +4,4 @@
 * runYolo.py: 用于模型识别
 * generateCapter: 用于生成训练用的训练集
 
-正确率高达90%
+训练好的pt文件在`runs/detect/train2/best.pt`，正确率高达90%
