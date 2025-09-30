@@ -20,4 +20,4 @@ Yolo+CNN：其实就是ddddocr的方案，先用Yolo框选出其文字，只负�
 ## 免责申明
 训练集没有用到腾讯的任何验证码，所有训练集均由自制`generateCapter.py`生成。
 
-该项目纯学习研究目的，`严禁`用于商业用途
+本项目基于 `MIT + Non-Commercial License` 发布，仅限学习与研究使用，禁止商业用途。
