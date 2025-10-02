@@ -4,7 +4,7 @@ words =['乘', '仓', '伯', '伴', '佰', '侈', '侧', '倍', '倡', '偿', '�
 model = YOLO("runs/detect/train2/weights/best.pt")
 
 # 对图片进行检测
-results = model("E:\\Yatori-Dev\\tencentImg\\熬沉豹_fa705c7235bfe41a605e29a967044a69.png")
+results = model("E:\\Yatori-Dev\\tencentImg\\隘掣尝_05c402366213de1fdd7a295238d5992f.png")
 # results = model("E:\\PycharmProjects\\tencentObjectTrain\\CCC\images\\4.png")
 # 获取检测框信息（xyxy坐标, 置信度, 类别）
 boxes = results[0].boxes
